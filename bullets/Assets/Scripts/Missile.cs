@@ -6,8 +6,6 @@ public class Missile : MonoBehaviour
     [SerializeField] private float rotationSpeed=1f;
     [SerializeField] private float movementSpeed=2f;
     private Rigidbody2D rigitbody2d;
-    private Quaternion rotTarget;
-    private Vector3 direction;
     private Target target;
 
 
